@@ -21,4 +21,4 @@ jobs:
 
       - name: Run urlwatch
         run: |
-          urlwatch --urls urls.yaml
+          urlwatch --config .github/urlwatch/urls.yaml
