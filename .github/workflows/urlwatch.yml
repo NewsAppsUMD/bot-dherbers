@@ -21,4 +21,4 @@ jobs:
 
       - name: Run urlwatch
         run: |
-          urlwatch --urls urls.yaml 
+          urlwatch --urls /home/codespace/.config/urlwatch/urls.yaml
