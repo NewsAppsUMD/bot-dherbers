@@ -21,4 +21,4 @@ jobs:
 
       - name: Run urlwatch
         run: |
-          urlwatch --urls urlwatch/urls.yaml 
+          urlwatch --urls urls.yaml 
