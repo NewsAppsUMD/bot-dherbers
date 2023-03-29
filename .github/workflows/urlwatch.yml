@@ -10,15 +10,20 @@ jobs:
   urlwatch:
     runs-on: ubuntu-latest
     steps:
+      - name: Create URLwatch directory
+        run: mkdir -p $HOME/.config/urlwatch/
+
+      - name: Create URLwatch config file
+        run: touch $HOME/.config/urlwatch/urls.yaml
+
       - name: Set up Python environment
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      - name: Install urlwatch
+      - name: Install URLwatch
         run: |
           pip install urlwatch
 
-      - name: Run urlwatch
-        run: |
-          urlwatch --config .github/urlwatch/urls.yaml
+      - name: Run URLwatch
+        run: urlwatch --config .github/urlwatch/urls.yaml
