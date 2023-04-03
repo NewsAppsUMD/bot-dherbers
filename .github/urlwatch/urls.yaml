@@ -55,9 +55,9 @@ filter:
 
 ---
 name: "urlwatch test"
-url: "https://www.greenbeltnewsreview.com/"
+url: "https://www.greenbeltnewsreview.com/news-stories/"
 filter:
-  - element-by-class: "excerpt"
+  - element-by-class: "entry-content"
   - html2text
   - strip
 ---
