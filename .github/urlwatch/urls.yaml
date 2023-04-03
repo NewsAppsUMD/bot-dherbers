@@ -52,3 +52,12 @@ filter:
   - html2text
   - strip
 ---
+
+---
+name: "urlwatch test"
+url: "https://www.greenbeltnewsreview.com/"
+filter:
+  - element-by-class: "excerpt"
+  - html2text
+  - strip
+---
