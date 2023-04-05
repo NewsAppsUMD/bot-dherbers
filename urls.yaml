@@ -6,7 +6,6 @@ filter:
   - element-by-class: "content"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -16,7 +15,6 @@ filter:
   - element-by-class: "row"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -26,7 +24,6 @@ filter:
   - xpath: /html/body/div[1]/div/div/section[6]/div[3]/div/div[1]/div/div
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -36,7 +33,6 @@ filter:
   - element-by-class: "container"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -46,7 +42,6 @@ filter:
   - element-by-class: "paragraph-4"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -56,7 +51,6 @@ filter:
   - element-by-class: "entry-content"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -66,7 +60,6 @@ filter:
   - element-by-class: "entry-content"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
 
 ---
@@ -76,5 +69,4 @@ filter:
   - element-by-class: "article-excerpt"
   - html2text
   - strip
-  - diff_tool: wdiff
 ---
