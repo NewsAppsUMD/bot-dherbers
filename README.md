@@ -15,3 +15,9 @@ My output yaml is here: /home/codespace/.config/urlwatch/urlwatch.yaml
 
 Filter tester: urlwatch --test-filter https://example.net/
 run with the individual htmls for each job to see output
+
+      - name: Create URLwatch directory
+        run: mkdir -p $HOME/.config/urlwatch/
+
+      - name: Create URLwatch config file
+        run: touch $HOME/.config/urlwatch/urls.yaml
