@@ -4,7 +4,7 @@ The bot is now successfully running on GitHub actions both scheduled and pushing
 A realistic goal I think is having the bot watching all of the presidential candidates (and presumptive candidates), as well as a selection of senate candidates, possibly all the non-incumbents. I would like to adjust the output, but it seems that urlwatch doesn't let me change it.
 
 Learning today, seriously only edit the urls.yaml file with urlwatch --edit in the terminal, because opening the file and attempting to save it elsewhere confuses the urlwatch system.
-Added tester with NOVA Mag
+Added tester with NOVA Mag, test
 
 My urls.yaml might be here: 
 home/codespace/.config/urlwatch/urls.yaml
