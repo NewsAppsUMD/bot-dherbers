@@ -124,3 +124,12 @@ filter:
   - html2text
   - strip
 ---
+
+---
+name: "urlwatch Joe Biden"
+url: "https://joebiden.com/joes-vision/"
+filter:
+  - xpath: /html/body/div[2]/div/main
+  - html2text
+  - strip
+---

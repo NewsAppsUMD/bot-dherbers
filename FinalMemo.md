@@ -1,0 +1,1 @@
+This bot watches the biography pages or sections on the personal websites of 12 confirmed or presumptive presidential 
