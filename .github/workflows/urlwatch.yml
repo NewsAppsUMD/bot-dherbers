@@ -26,4 +26,4 @@ jobs:
           pip install urlwatch
 
       - name: Run URLwatch
-        run: urlwatch --config .github/urlwatch/urls.yaml
+        run: urlwatch --config /home/codespace/.config/urlwatch/urls.yaml
