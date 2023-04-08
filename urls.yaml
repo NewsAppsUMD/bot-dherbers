@@ -54,6 +54,24 @@ filter:
 ---
 
 ---
+name: "urlwatch Asa Hutchinson"
+url: "https://www.asfpac.com/"
+filter:
+  - element-by-class: "asa-content"
+  - html2text
+  - strip
+---
+
+---
+name: "urlwatch Ron Desantis"
+url: "https://rondesantis.com/meet-ron/"
+filter:
+  - element-by-class: "page-content"
+  - html2text
+  - strip
+---
+
+---
 name: "urlwatch test"
 url: "https://www.greenbeltnewsreview.com/news-stories/"
 filter:

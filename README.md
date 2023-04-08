@@ -6,6 +6,10 @@ A realistic goal I think is having the bot watching all of the presidential cand
 Learning today, seriously only edit the urls.yaml file with urlwatch --edit in the terminal, because opening the file and attempting to save it elsewhere confuses the urlwatch system.
 Added tester with NOVA Mag, test, test
 
+The only reliable way to edit the jobs:
+urlwatch --edit
+export EDITOR=/bin/nano
+
 My urls.yaml might be here: 
 home/codespace/.config/urlwatch/urls.yaml
 
