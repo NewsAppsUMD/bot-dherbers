@@ -90,6 +90,42 @@ filter:
 ---
 
 ---
+name: "urlwatch John Bolton"
+url: "https://www.boltonpac.com/pac/"
+filter:
+  - element-by-class: "entry-content"
+  - html2text
+  - strip
+---
+
+---
+name: "urlwatch Mike Pence"
+url: "https://advancingamericanfreedom.com/about/#"
+filter:
+  - element-by-class: "modal-bio"
+  - html2text
+  - strip
+---
+
+---
+name: "urlwatch Tim Scott"
+url: "https://votetimscott.com/about/"
+filter:
+  - element-by-class: "entry-content"
+  - html2text
+  - strip
+---
+
+---
+name: "urlwatch Chris Sununu"
+url: "https://www.chrissununu.com/meet-chris"
+filter:
+  - element-by-class: "font_8"
+  - html2text
+  - strip
+---
+
+---
 name: "urlwatch test"
 url: "https://www.greenbeltnewsreview.com/news-stories/"
 filter:
