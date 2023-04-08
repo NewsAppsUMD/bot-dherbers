@@ -72,6 +72,24 @@ filter:
 ---
 
 ---
+name: "urlwatch Mike Pompeo"
+url: "https://www.mikepompeo.com/"
+filter:
+  - element-by-class: "lp-pom-text"
+  - html2text
+  - strip
+---
+
+---
+name: "urlwatch Robert F Kennedy Jr"
+url: "https://www.teamkennedy.com/"
+filter:
+  - xpath: /html/body/section[2]/section[1]/div/div/div[1]
+  - html2text
+  - strip
+---
+
+---
 name: "urlwatch test"
 url: "https://www.greenbeltnewsreview.com/news-stories/"
 filter:
